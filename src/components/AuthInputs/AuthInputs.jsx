@@ -43,6 +43,7 @@ export default function AuthInputs() {
           />
         </p>
       </div>
+      <p>Some text in AuthInputs Component conflicted by the paragraph styling in Header Component</p>
       <div className="actions">
         <button type="button" className="text-button">
           Create a new account
