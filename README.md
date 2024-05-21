@@ -26,4 +26,8 @@
 ### Disadvantages
 
 - You need to know CSS
-- You may end up with many relatively small css files in your project
+- You may end up with many relatively small css files in your project 
+
+## References
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates
