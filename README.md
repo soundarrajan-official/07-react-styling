@@ -26,7 +26,21 @@
 ### Disadvantages
 
 - You need to know CSS
-- You may end up with many relatively small css files in your project 
+- You may end up with many relatively small css files in your project
+
+## Styled Components with JS
+
+### Advantages
+
+- Quick and easy to add
+- You continue "thinking in React" ( -> configurable styled functions)
+- Styles are scoped to components -> No CSS rules clashes
+
+### Disadvantages
+
+- You need to know CSS
+- No clear separation of React & CSS code
+- You end up with many relatively small "wrapper" components
 
 ## References
 
