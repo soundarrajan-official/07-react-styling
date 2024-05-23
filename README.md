@@ -42,6 +42,38 @@
 - No clear separation of React & CSS code
 - You end up with many relatively small "wrapper" components
 
+## Tailwind CSS 
+
+### Setup
+
+```bash
+$ npm install tailwindcss postcss autoprefixer
+$ npx tailwindcss init -p
+```
+
+tailwind.config.js
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+index.css
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates
+- https://tailwindcss.com/docs/guides/vite
